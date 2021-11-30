@@ -189,8 +189,8 @@ namespace gtr {
                 ? "white"
                 : d.node.scaleNote.isScaleNote
                     ? d.node.scaleNote.noteNumber === 0
-                        ? hasToggledNotes ? "white" : "yellow"
-                        : "white"
+                        ? hasToggledNotes ? "#6D7684" : "#3F630F"
+                        : "#6D7684"
                     : "rgba(255, 255, 255, 0.01)";
         };
 
